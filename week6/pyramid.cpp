@@ -9,7 +9,7 @@ void star() {
 		printf("*");
 	
 }
-int main() {
+int main4() {
 	int n;
 	scanf_s("%d", &n);
 	for (int i = 1; i <= n; i++) {
