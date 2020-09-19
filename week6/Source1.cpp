@@ -1,8 +1,8 @@
-#include<stdio.h>
-void tri(int n) {
-int i=0;
+#include <stdio.h> 
+void triUp(int n) {
+	int i = 0;
 	while (i <= n) {
-		for (int j = n; j >=i ; j--) {
+		for (int j = 1; j <= i; j++) {
 			printf("* ");
 			if (j == i) {
 				printf("\n");
@@ -11,9 +11,9 @@ int i=0;
 		i++;
 	}
 }
-int main2() {
+int main3() {
 	int n;
 	scanf_s("%d", &n);
-	tri(n);
+	triUp(n);
 	return 0;
 }
